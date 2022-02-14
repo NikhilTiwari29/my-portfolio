@@ -161,9 +161,7 @@ nav.sticky .menu-btn {
 .home .button {
   margin: 14px 0;
 }
-p {
-  color: var(--primary-color);
-}
+
 .home .button button {
   outline: none;
   padding: 8px 16px;
@@ -278,6 +276,7 @@ section .button button:hover{
 .Technical-Skills{
   font-size: 45px;
   margin-left: 10%;
+  color:var(--primary-color);
 }
 .techMain {
   width: 80%;
@@ -305,9 +304,10 @@ section .button button:hover{
   height: 500px;
   text-align: center;
   border-radius: 12px;
-  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+ border: 2px solid red;
   cursor: default;
   transition: all 0.4s ease;
+  color: white;
 }
 .hero{
    width: calc(100%);
@@ -321,31 +321,6 @@ section .button button:hover{
   text-align: center;
   font-size: 18px;
 }
-.Projects .boxes .box:hover {
-  background: var(--primary-color);
-  color: var(--white-color);
-}
-.Projects .boxes .box .icon {
-  height: 50px;
-  width: 50px;
-  background-color: #091618;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  font-size: 18px;
-  color: var(--white-color);
-  margin: 0 auto 10px auto;
-  transition: all 0.4s ease;
-}
-.boxes .box:hover .icon {
-  background: var(--white-color);
-  color: var(--primary-color);
-}
-.Projects .boxes .box:hover .topic,
-.Projects .boxes .box:hover p {
-  color: var(--white-color);
-  transition: all 0.4s ease;
-}
 .demoBtn{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -355,7 +330,7 @@ section .button button:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
+  width: 80%;
   height: 35px;
   color: white;
   font-family: 'Raleway';
@@ -386,7 +361,6 @@ section .button button:hover{
   display: grid;
   grid-template-columns: auto auto auto auto;
   margin-top: 50px;
-
 }
 .contactImg{
   width: 40%;
@@ -615,14 +589,16 @@ footer .text span a:hover {
   display: grid;
   grid-template-columns: auto auto;
   margin-top: -15px;
+  margin-left: -10px;
  }
 
  .title{
    margin-left: 40px;
  }
  .Projects .boxes .box {
-  height: 530px;
+  height: 570px;
  }
+
  .intro{
   display: grid;
   grid-template-columns: auto;
