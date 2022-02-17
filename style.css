@@ -143,6 +143,9 @@ nav.sticky .menu-btn {
 .profile{
   width: 50%;
   margin-left: 20%;
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
 }
 .home .text-one {
   font-size: 25px;
