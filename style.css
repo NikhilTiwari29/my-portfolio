@@ -241,7 +241,9 @@ section .title span::after{
   margin-top: -25px;
 }
 .aboutImg{
-  width: 60%;
+  width: 40%;
+  margin-top: -80px;
+  margin-left: 10%;
 }
 section .topic{
   color:var(--black-color);
@@ -301,9 +303,10 @@ section .button button:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 5%;
 }
 .Projects .boxes .box {
-  width: calc(38%);
+  width: calc(48%);
   height: 500px;
   text-align: center;
   border-radius: 12px;
@@ -311,6 +314,7 @@ section .button button:hover{
   cursor: default;
   transition: all 0.4s ease;
   color: white;
+   padding: 25px 50px;
 }
 .hero{
    width: calc(100%);
@@ -318,7 +322,7 @@ section .button button:hover{
 .projectName{
   font-size: 30px;
   margin-top: -20px;
-  margin-left: -80px;
+  text-align: center;
 }
 .projDes{
   text-align: center;
@@ -354,7 +358,7 @@ section .button button:hover{
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background: linear-gradient(60deg, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
   border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
   animation: animatedgradient 3s ease alternate infinite;
@@ -600,9 +604,9 @@ footer .text span a:hover {
    margin-left: 40px;
  }
  .Projects .boxes .box {
-  height: 570px;
- }
-
+   padding: 0px;
+   width: 120%;
+}
  .intro{
   display: grid;
   grid-template-columns: auto;
@@ -633,7 +637,10 @@ footer .text span a:hover {
 .whatsapp{
    margin-top: 25px
 }
-
+.aboutImg{
+  width: 80%;
+  margin-top: 10px;
+}
 
 }
 /*  */
