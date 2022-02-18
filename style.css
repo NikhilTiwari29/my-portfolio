@@ -306,8 +306,8 @@ section .button button:hover{
   margin-left: 5%;
 }
 .Projects .boxes .box {
-  width: calc(48%);
-  height: 500px;
+  width: calc(49%);
+  height: 520px;
   text-align: center;
   border-radius: 12px;
  border: 4px solid rgb(0,109,44);
@@ -332,18 +332,20 @@ section .button button:hover{
   display: grid;
   grid-template-columns: auto auto auto;
   margin-top: -2px;
+  justify-content: center;
 }
 #box {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 90%;
   height: 35px;
   color: white;
   font-family: 'Raleway';
   font-size: 1.2rem;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-right: 15px;
+  padding: 20px 35px;
 }
 .gradient-border {
   --borderWidth: 3px;
@@ -443,6 +445,16 @@ footer .text span a:hover {
   section .content {
     width: 85%;
   }
+  .demoBtn{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: -2px;
+}
+ #box{
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 15px;
+ }
 }
 @media (max-width: 1000px) {
   .about .about-details {
@@ -460,7 +472,7 @@ footer .text span a:hover {
   }
   .Projects .boxes .box {
     margin: 20px 0;
-    width: calc(100% / 2 - 20px);
+    width: 80%
   }
     /* technical skills */
   .techBox {
@@ -485,6 +497,12 @@ footer .text span a:hover {
   grid-template-columns: auto auto auto;
   grid-row-gap: 20px;
 }
+.Projects .boxes .box {
+    margin: 20px 80px;
+    width: 80%;
+    height: 550px;
+  }
+
 }
 @media (max-width: 750px) {
   nav .navbar {
@@ -584,6 +602,16 @@ footer .text span a:hover {
   flex-direction: column;
   justify-content: center;
 }
+.projDes {
+    text-align: center;
+    font-size: 16px;
+}
+ .demoBtn{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: -15px;
+  margin-left: -20px;
+ }
 }
 @media (max-width: 600px) {
     /* technical skills */
@@ -592,6 +620,12 @@ footer .text span a:hover {
   grid-template-columns: auto auto;
   grid-row-gap: 20px;
   }
+  .demoBtn{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: -15px;
+  margin-left: -20px;
+ }
 }
 @media (max-width: 420px) {
     /* technical skills */
@@ -608,17 +642,28 @@ footer .text span a:hover {
  }
  .demoBtn{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   margin-top: -15px;
-  margin-left: -10px;
+  margin-left: 10px;
  }
 
  .title{
    margin-left: 40px;
  }
+ .projDes {
+    text-align: center;
+    font-size: 14px;
+}
  .Projects .boxes .box {
    padding: 0px;
-   width: 120%;
+   width: 100%;
+  margin-left: -10px;
+}
+#box{
+  margin-left: 15px;
+  width: 70%;
+  padding: 0px 10px;
+  font-size: 15px;
 }
  .intro{
   display: grid;
