@@ -305,6 +305,7 @@ section .button button:hover{
   justify-content: space-between;
   margin-left: 5%;
 }
+
 .Projects .boxes .box {
   width: calc(49%);
   height: 620px;
